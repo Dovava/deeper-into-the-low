@@ -1,4 +1,4 @@
 extends AnimationPlayer
 
 func _ready():
-	play("move")
+	current_animation = "move"
